@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE370C4223BF223008EEBF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C3223BF223008EEBF9 /* AppDelegate.swift */; };
+		BCE370C6223BF223008EEBF9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C5223BF223008EEBF9 /* FirstViewController.swift */; };
+		BCE370C8223BF223008EEBF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C7223BF223008EEBF9 /* SecondViewController.swift */; };
+		BCE370CB223BF223008EEBF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE370C9223BF223008EEBF9 /* Main.storyboard */; };
+		BCE370CD223BF225008EEBF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE370CC223BF225008EEBF9 /* Assets.xcassets */; };
+		BCE370D0223BF225008EEBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE370CE223BF225008EEBF9 /* LaunchScreen.storyboard */; };
+		BCE370DB223BF225008EEBF9 /* vcanus_pilloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370DA223BF225008EEBF9 /* vcanus_pilloTests.swift */; };
+		BCE370E6223BF225008EEBF9 /* vcanus_pilloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370E5223BF225008EEBF9 /* vcanus_pilloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE370D7223BF225008EEBF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE370B8223BF223008EEBF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE370BF223BF223008EEBF9;
+			remoteInfo = "vcanus-pillo";
+		};
+		BCE370E2223BF225008EEBF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE370B8223BF223008EEBF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE370BF223BF223008EEBF9;
+			remoteInfo = "vcanus-pillo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE370C0223BF223008EEBF9 /* vcanus-pillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vcanus-pillo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE370C3223BF223008EEBF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE370C5223BF223008EEBF9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BCE370C7223BF223008EEBF9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BCE370CA223BF223008EEBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCE370CC223BF225008EEBF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE370CF223BF225008EEBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE370D1223BF225008EEBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE370D6223BF225008EEBF9 /* vcanus-pilloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vcanus-pilloTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE370DA223BF225008EEBF9 /* vcanus_pilloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcanus_pilloTests.swift; sourceTree = "<group>"; };
+		BCE370DC223BF225008EEBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE370E1223BF225008EEBF9 /* vcanus-pilloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vcanus-pilloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE370E5223BF225008EEBF9 /* vcanus_pilloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcanus_pilloUITests.swift; sourceTree = "<group>"; };
+		BCE370E7223BF225008EEBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE370BD223BF223008EEBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE370D3223BF225008EEBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE370DE223BF225008EEBF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE370B7223BF223008EEBF9 = {
+			isa = PBXGroup;
+			children = (
+				BCE370C2223BF223008EEBF9 /* vcanus-pillo */,
+				BCE370D9223BF225008EEBF9 /* vcanus-pilloTests */,
+				BCE370E4223BF225008EEBF9 /* vcanus-pilloUITests */,
+				BCE370C1223BF223008EEBF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE370C1223BF223008EEBF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE370C0223BF223008EEBF9 /* vcanus-pillo.app */,
+				BCE370D6223BF225008EEBF9 /* vcanus-pilloTests.xctest */,
+				BCE370E1223BF225008EEBF9 /* vcanus-pilloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE370C2223BF223008EEBF9 /* vcanus-pillo */ = {
+			isa = PBXGroup;
+			children = (
+				BCE370C3223BF223008EEBF9 /* AppDelegate.swift */,
+				BCE370C5223BF223008EEBF9 /* FirstViewController.swift */,
+				BCE370C7223BF223008EEBF9 /* SecondViewController.swift */,
+				BCE370C9223BF223008EEBF9 /* Main.storyboard */,
+				BCE370CC223BF225008EEBF9 /* Assets.xcassets */,
+				BCE370CE223BF225008EEBF9 /* LaunchScreen.storyboard */,
+				BCE370D1223BF225008EEBF9 /* Info.plist */,
+			);
+			path = "vcanus-pillo";
+			sourceTree = "<group>";
+		};
+		BCE370D9223BF225008EEBF9 /* vcanus-pilloTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE370DA223BF225008EEBF9 /* vcanus_pilloTests.swift */,
+				BCE370DC223BF225008EEBF9 /* Info.plist */,
+			);
+			path = "vcanus-pilloTests";
+			sourceTree = "<group>";
+		};
+		BCE370E4223BF225008EEBF9 /* vcanus-pilloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE370E5223BF225008EEBF9 /* vcanus_pilloUITests.swift */,
+				BCE370E7223BF225008EEBF9 /* Info.plist */,
+			);
+			path = "vcanus-pilloUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE370BF223BF223008EEBF9 /* vcanus-pillo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE370EA223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pillo" */;
+			buildPhases = (
+				BCE370BC223BF223008EEBF9 /* Sources */,
+				BCE370BD223BF223008EEBF9 /* Frameworks */,
+				BCE370BE223BF223008EEBF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vcanus-pillo";
+			productName = "vcanus-pillo";
+			productReference = BCE370C0223BF223008EEBF9 /* vcanus-pillo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE370D5223BF225008EEBF9 /* vcanus-pilloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE370ED223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pilloTests" */;
+			buildPhases = (
+				BCE370D2223BF225008EEBF9 /* Sources */,
+				BCE370D3223BF225008EEBF9 /* Frameworks */,
+				BCE370D4223BF225008EEBF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE370D8223BF225008EEBF9 /* PBXTargetDependency */,
+			);
+			name = "vcanus-pilloTests";
+			productName = "vcanus-pilloTests";
+			productReference = BCE370D6223BF225008EEBF9 /* vcanus-pilloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE370E0223BF225008EEBF9 /* vcanus-pilloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE370F0223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pilloUITests" */;
+			buildPhases = (
+				BCE370DD223BF225008EEBF9 /* Sources */,
+				BCE370DE223BF225008EEBF9 /* Frameworks */,
+				BCE370DF223BF225008EEBF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE370E3223BF225008EEBF9 /* PBXTargetDependency */,
+			);
+			name = "vcanus-pilloUITests";
+			productName = "vcanus-pilloUITests";
+			productReference = BCE370E1223BF225008EEBF9 /* vcanus-pilloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE370B8223BF223008EEBF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sglee;
+				TargetAttributes = {
+					BCE370BF223BF223008EEBF9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BCE370D5223BF225008EEBF9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BCE370BF223BF223008EEBF9;
+					};
+					BCE370E0223BF225008EEBF9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BCE370BF223BF223008EEBF9;
+					};
+				};
+			};
+			buildConfigurationList = BCE370BB223BF223008EEBF9 /* Build configuration list for PBXProject "vcanus-pillo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE370B7223BF223008EEBF9;
+			productRefGroup = BCE370C1223BF223008EEBF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE370BF223BF223008EEBF9 /* vcanus-pillo */,
+				BCE370D5223BF225008EEBF9 /* vcanus-pilloTests */,
+				BCE370E0223BF225008EEBF9 /* vcanus-pilloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE370BE223BF223008EEBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE370D0223BF225008EEBF9 /* LaunchScreen.storyboard in Resources */,
+				BCE370CD223BF225008EEBF9 /* Assets.xcassets in Resources */,
+				BCE370CB223BF223008EEBF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE370D4223BF225008EEBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE370DF223BF225008EEBF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE370BC223BF223008EEBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE370C8223BF223008EEBF9 /* SecondViewController.swift in Sources */,
+				BCE370C4223BF223008EEBF9 /* AppDelegate.swift in Sources */,
+				BCE370C6223BF223008EEBF9 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE370D2223BF225008EEBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE370DB223BF225008EEBF9 /* vcanus_pilloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE370DD223BF225008EEBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE370E6223BF225008EEBF9 /* vcanus_pilloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE370D8223BF225008EEBF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE370BF223BF223008EEBF9 /* vcanus-pillo */;
+			targetProxy = BCE370D7223BF225008EEBF9 /* PBXContainerItemProxy */;
+		};
+		BCE370E3223BF225008EEBF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE370BF223BF223008EEBF9 /* vcanus-pillo */;
+			targetProxy = BCE370E2223BF225008EEBF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE370C9223BF223008EEBF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE370CA223BF223008EEBF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE370CE223BF225008EEBF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE370CF223BF225008EEBF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE370E8223BF225008EEBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCE370E9223BF225008EEBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE370EB223BF225008EEBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vcanus-pillo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vcanus.vcanus-pillo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE370EC223BF225008EEBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vcanus-pillo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vcanus.vcanus-pillo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCE370EE223BF225008EEBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vcanus-pilloTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vcanus.vcanus-pilloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vcanus-pillo.app/vcanus-pillo";
+			};
+			name = Debug;
+		};
+		BCE370EF223BF225008EEBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vcanus-pilloTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vcanus.vcanus-pilloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vcanus-pillo.app/vcanus-pillo";
+			};
+			name = Release;
+		};
+		BCE370F1223BF225008EEBF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vcanus-pilloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vcanus.vcanus-pilloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vcanus-pillo";
+			};
+			name = Debug;
+		};
+		BCE370F2223BF225008EEBF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "vcanus-pilloUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vcanus.vcanus-pilloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vcanus-pillo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE370BB223BF223008EEBF9 /* Build configuration list for PBXProject "vcanus-pillo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE370E8223BF225008EEBF9 /* Debug */,
+				BCE370E9223BF225008EEBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE370EA223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pillo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE370EB223BF225008EEBF9 /* Debug */,
+				BCE370EC223BF225008EEBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE370ED223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pilloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE370EE223BF225008EEBF9 /* Debug */,
+				BCE370EF223BF225008EEBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE370F0223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pilloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE370F1223BF225008EEBF9 /* Debug */,
+				BCE370F2223BF225008EEBF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE370B8223BF223008EEBF9 /* Project object */;
+}
