@@ -20,9 +20,12 @@ class FirstViewController:
     UITextFieldDelegate {
 
     var ssidArray:[String] = []
-    let url = "http://192.168.1.50:8080/"
-//    let url = "http://192.168.10.1/"
+//    let url = "http://192.168.1.50:8080/"
+    let url = "http://192.168.10.1/"
     
+    let requestTimeout: Double = 10
+    var selectedNetworkIndex = -1
+    var ssid = ""
     @IBOutlet var mode: UITextField!
     @IBOutlet var passwd: UITextField!
     @IBOutlet var tableView: UITableView!
@@ -62,6 +65,14 @@ class FirstViewController:
 //        }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let cell = tableView.cellForRow(at: indexPath) as! UITableViewCell
+//        let cell = self.tableView.cellForRowAtIndexPath(indexPath)
+//        print(cell.textLabel?.text)
+        print(indexPath.row)
+        self.selectedNetworkIndex = indexPath.row
+    }
+    
     @objc func keyboardWillShow(_ sender: Notification) {
         self.view.frame.origin.y = -150
     }
@@ -84,11 +95,13 @@ class FirstViewController:
             "Accept": "application/json"
             //            "Accept": "text/html"
         ]
-        Alamofire
-            .request(
-                url, method: .get,
-                encoding: URLEncoding.default,
-                headers: headers)
+        let request = Alamofire.request(
+            url, method: .get,
+            encoding: URLEncoding.default,
+            headers: headers)
+        var customRequest:URLRequest = request.request!
+        customRequest.timeoutInterval = requestTimeout
+        Alamofire.request(customRequest)
             .responseJSON {
                 response in
                 switch(response.result) {
@@ -111,11 +124,14 @@ class FirstViewController:
                             //                            let rssi = ssidElement["rssi"]
                             self.ssidArray.append(ssid)
                         }
+                        self.selectedNetworkIndex = -1
                         self.tableView.reloadData()
                     }
                     break
                 case .failure(let error) :
                     print(error)
+                    self.showAlert(title: "Error",
+                                   message: "Check your network")
                     break
                 }
                 
@@ -126,19 +142,26 @@ class FirstViewController:
     }
     
     @IBAction func connectNetwork(_ sender: Any) {
-        let newUrl = url + "network/"
+        let newUrl = url + "mode/"
         let passwd: String? = self.passwd.text
         if(passwd==nil) {
             return
         }
+        if(self.selectedNetworkIndex != -1) {
+            ssid = self.ssidArray[self.selectedNetworkIndex]
+        }
         let parameters = [
+            "type": "WIFI_STA",
+            "ssid": ssid,
             "passwd" : passwd!
         ]
-        Alamofire.request(
-            newUrl,
-            method: .post,
+        let request = Alamofire.request(
+            newUrl, method: .post,
             parameters: parameters,
             encoding: JSONEncoding.default)
+        var customRequest:URLRequest = request.request!
+        customRequest.timeoutInterval = requestTimeout
+        Alamofire.request(customRequest)
             .responseJSON {
                 response in
                 print(".responseJSON")
@@ -148,6 +171,8 @@ class FirstViewController:
                     break
                 case .failure(let error):
                     print(error)
+                    self.showAlert(title: "Error",
+                                   message: "Check your network")
                     break
                 }
             }
@@ -160,25 +185,44 @@ class FirstViewController:
                     break
                 case .failure(let error):
                     print(error)
+                    self.showAlert(title: "Error",
+                                   message: "Check your network")
                     break
                 }
         }
     }
     
+    func showAlert(title: String, message: String) {
+        let alert = UIAlertController(title: title,
+                                      message: message,
+                                      preferredStyle: .alert)
+        let ok = UIAlertAction(title: title,
+                               style: .default) {
+                                ok in
+        }
+        
+        alert.addAction(ok)
+        present(alert, animated: true, completion: nil)
+    }
+    
     @IBAction func disconnectNetwork(_ sender: Any) {
-        let newUrl = url + "connection/"
+        let newUrl = url + "mode/"
         let passwd: String? = self.passwd.text
         if(passwd==nil) {
             return
         }
         let parameters = [
+            "type": "WIFI_AP",
+            "ssid": ssid,
             "passwd" : passwd!
         ]
-        Alamofire.request(
-            newUrl,
-            method: .post,
+        let request = Alamofire.request(
+            newUrl, method: .post,
             parameters: parameters,
             encoding: JSONEncoding.default)
+        var customRequest:URLRequest = request.request!
+        customRequest.timeoutInterval = requestTimeout
+        Alamofire.request(customRequest)
             .responseJSON {
                 response in
                 print(".responseJSON")
@@ -188,6 +232,8 @@ class FirstViewController:
                     break
                 case .failure(let error):
                     print(error)
+                    self.showAlert(title: "Error",
+                              message: "Check your network")
                     break
                 }
             }
@@ -200,6 +246,8 @@ class FirstViewController:
                     break
                 case .failure(let error):
                     print(error)
+                    self.showAlert(title: "Error",
+                              message: "Check your network")
                     break
                 }
         }

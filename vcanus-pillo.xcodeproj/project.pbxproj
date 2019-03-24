@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		38025C88AE0E67EDD979B881 /* Pods_vcanus_pilloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4920FA4819F3F0881020E5F /* Pods_vcanus_pilloUITests.framework */; };
 		744E31F08ACD44D1B3A3FA3F /* Pods_vcanus_pillo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD7C1512105AA5FB6FC139 /* Pods_vcanus_pillo.framework */; };
+		BCC4AE4A2247BFBF00A923D2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C5223BF223008EEBF9 /* FirstViewController.swift */; };
 		BCE370C4223BF223008EEBF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C3223BF223008EEBF9 /* AppDelegate.swift */; };
 		BCE370C6223BF223008EEBF9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C5223BF223008EEBF9 /* FirstViewController.swift */; };
 		BCE370C8223BF223008EEBF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C7223BF223008EEBF9 /* SecondViewController.swift */; };
@@ -101,7 +102,6 @@
 				74E3D290C20ED5C105D189CA /* Pods-vcanus-pilloUITests.debug.xcconfig */,
 				7BCF0F1982FB9188F29957BE /* Pods-vcanus-pilloUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -414,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE370E6223BF225008EEBF9 /* vcanus_pilloUITests.swift in Sources */,
+				BCC4AE4A2247BFBF00A923D2 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
