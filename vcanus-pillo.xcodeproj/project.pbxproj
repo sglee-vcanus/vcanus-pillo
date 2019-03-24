@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38025C88AE0E67EDD979B881 /* Pods_vcanus_pilloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4920FA4819F3F0881020E5F /* Pods_vcanus_pilloUITests.framework */; };
+		744E31F08ACD44D1B3A3FA3F /* Pods_vcanus_pillo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD7C1512105AA5FB6FC139 /* Pods_vcanus_pillo.framework */; };
 		BCE370C4223BF223008EEBF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C3223BF223008EEBF9 /* AppDelegate.swift */; };
 		BCE370C6223BF223008EEBF9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C5223BF223008EEBF9 /* FirstViewController.swift */; };
 		BCE370C8223BF223008EEBF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370C7223BF223008EEBF9 /* SecondViewController.swift */; };
@@ -15,6 +17,7 @@
 		BCE370D0223BF225008EEBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE370CE223BF225008EEBF9 /* LaunchScreen.storyboard */; };
 		BCE370DB223BF225008EEBF9 /* vcanus_pilloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370DA223BF225008EEBF9 /* vcanus_pilloTests.swift */; };
 		BCE370E6223BF225008EEBF9 /* vcanus_pilloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE370E5223BF225008EEBF9 /* vcanus_pilloUITests.swift */; };
+		E8D34BAC7D7D89CB76AB9EA6 /* Pods_vcanus_pilloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B70C93A657A61D0EB153288 /* Pods_vcanus_pilloTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26A1C98C4A77C3CFFEB7AAF0 /* Pods-vcanus-pillo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vcanus-pillo.release.xcconfig"; path = "Target Support Files/Pods-vcanus-pillo/Pods-vcanus-pillo.release.xcconfig"; sourceTree = "<group>"; };
+		4B70C93A657A61D0EB153288 /* Pods_vcanus_pilloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vcanus_pilloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3A62E2283C4AE33C2EFFDB /* Pods-vcanus-pilloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vcanus-pilloTests.debug.xcconfig"; path = "Target Support Files/Pods-vcanus-pilloTests/Pods-vcanus-pilloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5CD59DFBBCB38544CF1636 /* Pods-vcanus-pilloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vcanus-pilloTests.release.xcconfig"; path = "Target Support Files/Pods-vcanus-pilloTests/Pods-vcanus-pilloTests.release.xcconfig"; sourceTree = "<group>"; };
+		74E3D290C20ED5C105D189CA /* Pods-vcanus-pilloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vcanus-pilloUITests.debug.xcconfig"; path = "Target Support Files/Pods-vcanus-pilloUITests/Pods-vcanus-pilloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCF0F1982FB9188F29957BE /* Pods-vcanus-pilloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vcanus-pilloUITests.release.xcconfig"; path = "Target Support Files/Pods-vcanus-pilloUITests/Pods-vcanus-pilloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84FD7C1512105AA5FB6FC139 /* Pods_vcanus_pillo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vcanus_pillo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4920FA4819F3F0881020E5F /* Pods_vcanus_pilloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vcanus_pilloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE370C0223BF223008EEBF9 /* vcanus-pillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vcanus-pillo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE370C3223BF223008EEBF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE370C5223BF223008EEBF9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		BCE370E1223BF225008EEBF9 /* vcanus-pilloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vcanus-pilloUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE370E5223BF225008EEBF9 /* vcanus_pilloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcanus_pilloUITests.swift; sourceTree = "<group>"; };
 		BCE370E7223BF225008EEBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F173F16294788085757AE5F7 /* Pods-vcanus-pillo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vcanus-pillo.debug.xcconfig"; path = "Target Support Files/Pods-vcanus-pillo/Pods-vcanus-pillo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744E31F08ACD44D1B3A3FA3F /* Pods_vcanus_pillo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D34BAC7D7D89CB76AB9EA6 /* Pods_vcanus_pilloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38025C88AE0E67EDD979B881 /* Pods_vcanus_pilloUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AB4BAFEE7576572D63791B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F173F16294788085757AE5F7 /* Pods-vcanus-pillo.debug.xcconfig */,
+				26A1C98C4A77C3CFFEB7AAF0 /* Pods-vcanus-pillo.release.xcconfig */,
+				4E3A62E2283C4AE33C2EFFDB /* Pods-vcanus-pilloTests.debug.xcconfig */,
+				5B5CD59DFBBCB38544CF1636 /* Pods-vcanus-pilloTests.release.xcconfig */,
+				74E3D290C20ED5C105D189CA /* Pods-vcanus-pilloUITests.debug.xcconfig */,
+				7BCF0F1982FB9188F29957BE /* Pods-vcanus-pilloUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C70A617493D4FE936242506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FD7C1512105AA5FB6FC139 /* Pods_vcanus_pillo.framework */,
+				4B70C93A657A61D0EB153288 /* Pods_vcanus_pilloTests.framework */,
+				A4920FA4819F3F0881020E5F /* Pods_vcanus_pilloUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCE370B7223BF223008EEBF9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				BCE370D9223BF225008EEBF9 /* vcanus-pilloTests */,
 				BCE370E4223BF225008EEBF9 /* vcanus-pilloUITests */,
 				BCE370C1223BF223008EEBF9 /* Products */,
+				3AB4BAFEE7576572D63791B6 /* Pods */,
+				6C70A617493D4FE936242506 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCE370EA223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pillo" */;
 			buildPhases = (
+				11CD103109AE98BA3EE14432 /* [CP] Check Pods Manifest.lock */,
 				BCE370BC223BF223008EEBF9 /* Sources */,
 				BCE370BD223BF223008EEBF9 /* Frameworks */,
 				BCE370BE223BF223008EEBF9 /* Resources */,
+				21E030B6C0B797901F6D854D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCE370ED223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pilloTests" */;
 			buildPhases = (
+				993264BC173D0BE59A79711C /* [CP] Check Pods Manifest.lock */,
 				BCE370D2223BF225008EEBF9 /* Sources */,
 				BCE370D3223BF225008EEBF9 /* Frameworks */,
 				BCE370D4223BF225008EEBF9 /* Resources */,
@@ -170,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCE370F0223BF225008EEBF9 /* Build configuration list for PBXNativeTarget "vcanus-pilloUITests" */;
 			buildPhases = (
+				994BB293EC04A61ABD569ACE /* [CP] Check Pods Manifest.lock */,
 				BCE370DD223BF225008EEBF9 /* Sources */,
 				BCE370DE223BF225008EEBF9 /* Frameworks */,
 				BCE370DF223BF225008EEBF9 /* Resources */,
@@ -253,6 +298,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CD103109AE98BA3EE14432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vcanus-pillo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21E030B6C0B797901F6D854D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vcanus-pillo/Pods-vcanus-pillo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vcanus-pillo/Pods-vcanus-pillo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		993264BC173D0BE59A79711C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vcanus-pilloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		994BB293EC04A61ABD569ACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vcanus-pilloUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCE370BC223BF223008EEBF9 /* Sources */ = {
@@ -434,6 +570,7 @@
 		};
 		BCE370EB223BF225008EEBF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F173F16294788085757AE5F7 /* Pods-vcanus-pillo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +589,7 @@
 		};
 		BCE370EC223BF225008EEBF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A1C98C4A77C3CFFEB7AAF0 /* Pods-vcanus-pillo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +608,7 @@
 		};
 		BCE370EE223BF225008EEBF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3A62E2283C4AE33C2EFFDB /* Pods-vcanus-pilloTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +629,7 @@
 		};
 		BCE370EF223BF225008EEBF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5CD59DFBBCB38544CF1636 /* Pods-vcanus-pilloTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +650,7 @@
 		};
 		BCE370F1223BF225008EEBF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E3D290C20ED5C105D189CA /* Pods-vcanus-pilloUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +670,7 @@
 		};
 		BCE370F2223BF225008EEBF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCF0F1982FB9188F29957BE /* Pods-vcanus-pilloUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
